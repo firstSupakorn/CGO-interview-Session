@@ -16,7 +16,7 @@ def get_queryset(request,x=0):
     return HttpResponse("Please enter the parameter-a in the form http://localhost:9999/testcgo/?x=1&a=1,2,3,4,5,7")
 
   output = solution(x,listA)
-  return HttpResponse("The earliest time when the frog can jump to the other side of the river is " + str(output))
+  return HttpResponse("The earliest time when the frog can jump to the other side of the river is " + str(output) + "second")
 
 def solution(X, A):
 
