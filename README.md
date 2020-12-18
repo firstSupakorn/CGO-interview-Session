@@ -26,3 +26,21 @@ Django version 2.2.6, using settings 'cgoInterviewSession.settings'
 Starting development server at http://0.0.0.0:9999/
 Quit the server with CONTROL-C.
 ```
+
+
+Then create an HTTP GET method on port 9999 with parameter x and a 
+as follows
+```
+x = 5
+a = [1,2,3,4,5,7]
+http://localhost:9999/testcgo/?x=5&a=1,2,3,4,5,7
+output: The earliest time when the frog can jump to the other side of the river is 4
+```
+
+
+```
+x = 5
+a = [1,3,1,4,2,3,5,4]
+http://localhost:9999/testcgo/?x=5&a=1,3,1,4,2,3,5,4
+The earliest time when the frog can jump to the other side of the river is 6 
+```
