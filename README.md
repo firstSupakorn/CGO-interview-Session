@@ -3,8 +3,8 @@
 # How to run docker container
 1. pull docker image from docker registry
 ```
-docker pull firstspk1/test:latest
-docker run -it -p 9999:9999 firstspk1/test:latest
+docker pull firstspk1/testcgo:latest
+docker run -it -p 9999:9999 firstspk1/testcgo:latest
 ```
 
 2. git clone this repository
